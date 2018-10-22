@@ -1,0 +1,27 @@
+{
+    "name": "spa-shops-nearby",
+    "version": "1.0.1",
+    "description": "An app to list the shops nearby",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hbellal/shops-nearby.git"
+    },
+    "scripts": {
+      "postinstall": "./node_modules/bower/bin/bower install",
+      "start": "node server/server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Hamza Bellal",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.17.1",
+      "bower": "1.8.0",
+      "express": "^4.15.2",
+      "pg": "^6.1.4"
+    },
+    "engines": {
+      "node": "6.2.0"
+    }
+}
+  
