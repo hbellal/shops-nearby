@@ -15,7 +15,7 @@ app.use((err, req, res, next) => {
     console.log(err);
     res.status(500).send('Server Error');
 }); // Default error message
-app.use('/api', routes); // url to access app
+app.use('/api', routes); // url to access routes
 
 router.get('/', (req, res, next) => {
     res.sendFile(path.join(__dirname, '..', 'client', 'index.html'));
